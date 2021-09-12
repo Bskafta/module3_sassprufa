@@ -1,0 +1,47 @@
+.button {
+  display: inline-block;
+  width: 100%;
+  max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
+  overflow: hidden;
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 4px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+.button:hover {
+  color: #eee;
+  background-color: #333;
+}
+
+.button--inverted {
+  color: #666;
+  background-color: #eee;
+}
+
+.button--inverted:hover {
+  color: #333;
+  background-color: #ccc;
+}
+
+.button--disabled, .button--disabled:hover {
+  color: #999;
+  background-color: #eee;
+  border-color: #eee;
+}
+/*# sourceMappingURL=button.css.map */

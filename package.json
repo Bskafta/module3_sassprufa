@@ -1,0 +1,11 @@
+{
+  "name": "autumn",
+  "version": "1.0.0",
+  "description": "Verkefni í Vefþróunn",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
